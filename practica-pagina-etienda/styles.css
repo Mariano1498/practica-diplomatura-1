@@ -1,0 +1,25 @@
+:root{
+    --purple-dark:  #1b0026;
+    --purple-mid: #3a0060;
+    --purple-light: #7b28ff;
+    --neon-accent: #b66cff;
+    --glow: rgba(182,108,255,0.18);
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(600px 300px at 50% 30%, var(--glow),transparent 30%), 
+    linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-mid) 50%, var(--purple-light) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+header img{
+    width: 400px;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
